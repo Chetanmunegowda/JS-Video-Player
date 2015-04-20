@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>IIT News</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- JQuery Plugin -->
+    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+    <!-- Javascript for the video player controls -->
+    <script type="text/javascript" src="js/player.js"></script>
+    <!-- ajaxCheat for parsing JSON file -->
+    <script src="js/ajaxCheat.js"></script>
+    <style>
+    .starter-template {
+    	padding: 40px 15px;
+		  text-align: center;
+	   }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="hook">
+        <div class="player">
+          <video width="1000" height="600" id="video">
+            <p>Your browser does not support HTML5 video</p>
+          </video>
+          <div id="title"></div>
+          <div id="description"></div>
+          <div>
+            <div id="progress">
+              <div id="progress-bar">
+              </div>
+            </div>
+             <div id="theatremode">
+             </div>  
+          </div>
+          <div>
+            <input type="button" value="Play" id="btn"/>
+          </div>
+      </div>
+    </div><!-- /.container -->
+  </body>
+</html>

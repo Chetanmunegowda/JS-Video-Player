@@ -1,0 +1,78 @@
+body{
+	background-color: #2F4F4F;
+}
+
+input {
+	width: 120px;
+	height: 40px;
+	font: bold 20px tahoma;
+}
+
+#progress{
+	display: inline-block;
+	width: 1000px;
+	height: 30px;
+	background-color: #CCCCCC;
+}
+
+#progress-bar{
+	width: 0px;
+	height: 30px;
+	background-color: red;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+#theatremode{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border: 2px solid #a1a1a1;
+	margin-left: 5px;
+}
+
+
+#title{
+	position: absolute;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: -350px;
+	margin-left: 400px;
+}
+
+#description{
+	display: none;
+	position: absolute;
+	margin-top: -200px;
+	height: 10px;
+	color: #FFFFFF;
+	font-size: 23px;
+	
+}
+
+.animateDescription{
+		 animation: moveleft 5s linear 2s infinite normal;
+		 -webkit-animation: moveleft 5s linear 2s infinite normal; 
+}
+
+
+.invisible{
+	display: none;
+}
+
+@-webkit-keyframes moveleft {
+    0%   {left:0px;}
+    25%  {left:250px;}
+    50%  {left:500px;}
+    75%  {left:750px;}
+    100% {left:1000px;}
+}
+
+@keyframes moveleft {
+    0%   {left:0px;}
+    25%  {left:250px;}
+    50%  {left:500px;}
+    75%  {left:750px;}
+    100% {left:1000px;}
+}
+
